@@ -13,7 +13,7 @@ import Line from "./scenes/line/Line"
 import Pie from "./scenes/pie/Pie"
 import FAQ from "./scenes/faq/FAQ"
 import Geography from "./scenes/geography/Geography"
-import Calendar from "./scenes/calendar/Calendar"
+import Calendar from "./scenes/calendar"
 import { useState, useEffect } from 'react'
 import { mockData } from "./data/mockData"
 
