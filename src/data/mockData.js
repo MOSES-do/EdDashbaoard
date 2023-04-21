@@ -2,7 +2,8 @@
 export const mockData = [
     {
         id: 1,
-        name: "Jon Snow",
+        firstName: "Jon ",
+        lastName: " Snow",
         email: "jonsnow@gmail.com",
         age: 35,
         phone: "(665)121-5454",
@@ -10,7 +11,8 @@ export const mockData = [
     },
     {
         id: 2,
-        name: "Cersei Lannister",
+        firstName: "Cersei",
+        lastName: "Lannister",
         email: "cerseilannister@gmail.com",
         age: 42,
         phone: "(421)314-2288",
@@ -18,7 +20,8 @@ export const mockData = [
     },
     {
         id: 3,
-        name: "Jaime Lannister",
+        firstName: "Jaime",
+        lastName: "Lannister",
         email: "jaimelannister@gmail.com",
         age: 45,
         phone: "(422)982-6739",
@@ -26,7 +29,8 @@ export const mockData = [
     },
     {
         id: 4,
-        name: "Anya Stark",
+        firstName: "Anya",
+        lastName: "Stark",
         email: "anyastark@gmail.com",
         age: 16,
         phone: "(921)425-6742",
@@ -34,7 +38,8 @@ export const mockData = [
     },
     {
         id: 5,
-        name: "Daenerys Targaryen",
+        firstName: "Daenerys",
+        lastName: "Targaryen",
         email: "daenerystargaryen@gmail.com",
         age: 31,
         phone: "(421)445-1189",
@@ -42,7 +47,8 @@ export const mockData = [
     },
     {
         id: 6,
-        name: "Ever Melisandre",
+        firstName: "Ever",
+        lastName: "Melisandre",
         email: "evermelisandre@gmail.com",
         age: 150,
         phone: "(232)545-6483",
@@ -50,7 +56,8 @@ export const mockData = [
     },
     {
         id: 7,
-        name: "Ferrara Clifford",
+        firstName: "Ferrara",
+        lastName: "Clifford",
         email: "ferraraclifford@gmail.com",
         age: 44,
         phone: "(543)124-0123",
@@ -58,7 +65,8 @@ export const mockData = [
     },
     {
         id: 8,
-        name: "Rossini Frances",
+        firstName: "Rossini",
+        lastName: "Frances",
         email: "rossinifrances@gmail.com",
         age: 36,
         phone: "(222)444-5555",
@@ -66,7 +74,8 @@ export const mockData = [
     },
     {
         id: 9,
-        name: "Harvey Roxie",
+        firstName: "Harvey",
+        lastName: "Roxie",
         email: "harveyroxie@gmail.com",
         age: 65,
         phone: "(444)555-6239",

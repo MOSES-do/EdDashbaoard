@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar"
 import 'react-pro-sidebar/dist/css/styles.css'
-import { Box, IconButton, Typography, useTheme } from '@mui/material'
+import { Box, IconButton, Typography, Stack, useTheme } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { tokens } from "../../theme"
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined"
@@ -87,11 +87,11 @@ const Sidebar = () => {
 
                     {!isCollapsed && (
                         <Box mb="25px">
-                            <Box display="flex" justifyContent="center" alignItems="center">
+                            <Stack display="flex" justifyContent="center" alignItems="center">
                                 <img alt="profile-user" width="100px" height="100px"
                                     src={`../../assets/user.png`}
                                     style={{ cursor: "pointer", borderRadius: "50%" }} />
-                            </Box>
+                            </Stack>
                             <Box textAlign="center">
                                 <Typography variant="h2"
                                     color={colors.grey[100]} fontWeight="bold"
